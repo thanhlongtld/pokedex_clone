@@ -1,0 +1,7 @@
+.hero-side{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr) );
+}
+.side-container{
+    padding-bottom: 100px;
+}

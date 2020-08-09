@@ -1,0 +1,11 @@
+.hero-img img {
+    width: 500px;
+    height: 500px;
+    transition: all 0.3s ease-out;
+}
+.hero-img img:hover{
+    transform: scale(1.2);
+}
+.hero-img{
+    overflow: hidden;
+}

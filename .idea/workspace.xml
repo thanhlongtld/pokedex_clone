@@ -20,36 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1a636bf-dac8-4189-9f7a-b6cd07183953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pokedex_clone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/components/Hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/components/HeroGame.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/components/HeroSide.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/css/hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/css/herogame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokedex_clone/src/css/heroside.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex_clone/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex_clone/src/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex_clone/src/components/HeroGame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex_clone/src/components/HeroGame.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex_clone/src/components/HeroSide.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex_clone/src/components/HeroSide.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,16 +50,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../counter-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../5_Pokedex" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codes\Learning\pokedex_clone\pokedex_clone\src" />
       <recent name="F:\Learning\pokedex_clone\pokedex_clone\src\components" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d1a636bf-dac8-4189-9f7a-b6cd07183953" name="Default Changelist" comment="" />
@@ -80,11 +76,12 @@
       <updated>1596790455393</updated>
       <workItem from="1596790456584" duration="3249000" />
       <workItem from="1596860514323" duration="2046000" />
+      <workItem from="1596944460093" duration="2307000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -99,9 +96,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1596862055422">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1596944702481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596862055422" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596944702481" />
   </component>
 </project>

@@ -1,42 +1,43 @@
 import React, {Component} from "react";
 import HeroSide from "./HeroSide";
+import '../css/herogame.css'
 export default class HeroGame extends Component {
     state = {
         heroes: [
             {
                 id: 1,
                 name: "Iron Man",
-                imgSrc: "heros/iron_man.jpg",
+                imgSrc: "/heros/iron_man.jpg",
                 power: 100
             },
             {
                 id: 2,
                 name: "Thor",
-                imgSrc: "heros/thor.jpg",
+                imgSrc: "/heros/thor.jpg",
                 power: 200
             },
             {
                 id: 3,
                 name: "Scarlet Witch",
-                imgSrc: "heros/scarlet.jpg",
+                imgSrc: "/heros/scarlet.jpg",
                 power: 300
             },
             {
                 id: 4,
                 name: "Black Widow",
-                imgSrc: "heros/black_widow.jpg",
+                imgSrc: "/heros/black_widow.jpg",
                 power: 400
             },
             {
                 id: 5,
                 name: "Captain America",
-                imgSrc: "heros/captain.jpg",
+                imgSrc: "/heros/captain.jpg",
                 power: 500
             },
             {
                 id: 6,
                 name: "Hulk",
-                imgSrc: "heros/hulk.jpg",
+                imgSrc: "/heros/hulk.jpg",
                 power: 600
             }
         ]
